@@ -22,10 +22,6 @@ body {
     gap: 3.5rem;
 }
 
-#img img {
-    width: 31rem;
-}
-
 #calculator {
     display: flex;
     flex-direction: column;
@@ -141,27 +137,6 @@ body {
 
 #description{
    width: 15.5rem;
-}
-
-#more_info {
-    text-align: center;
-    border-top: 1px solid #ffffff34;
-    padding-top: 1.5rem;
-}
-
-#more_info a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.6rem;
-    color: #16a34a;
-    font-size: 0.875rem;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-#more_info a:hover {
-    color: #cbd5e1;
 }
 
 .hidden {
